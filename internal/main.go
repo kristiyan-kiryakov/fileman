@@ -10,7 +10,6 @@ type fileman interface {
 	Read(name string)
 	Write(name string, content string)
 	Append(name string, content string)
-	Help()
 }
 type filemanImpl struct {
 }
